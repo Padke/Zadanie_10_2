@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var span = $("span");
 
 $("span:even").css('color','pink');
@@ -21,3 +23,4 @@ $("button:even").css({
 });
 
 $("button").css('margin-left', '100px');
+});
